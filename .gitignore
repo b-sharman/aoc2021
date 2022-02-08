@@ -1,9 +1,9 @@
 # blacklist everything in the root directory, effectively making the rest of this file a whitelist
 /**
 
-# include all dayA_partB.py, where A is a one- or two-digit integer and B is 1 or 2
+# include all dayA_partB.py
 !day*_part?.py
 # include all dayA_input.txt
-!day*_input?.txt
+!day*_input.txt
 
 !.gitignore
